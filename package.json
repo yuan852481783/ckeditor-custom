@@ -7,6 +7,9 @@
   "private": true,
   "main": "./build/ckeditor.js",
   "types": "./build/ckeditor.d.ts",
+  "publishConfig": {
+    "@joker:registry": "https://npm.pkg.github.com"
+  },
   "dependencies": {
     "@ckeditor/ckeditor5-autoformat": "40.0.0",
     "@ckeditor/ckeditor5-basic-styles": "40.0.0",
