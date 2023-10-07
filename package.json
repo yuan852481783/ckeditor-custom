@@ -4,11 +4,10 @@
   "description": "A custom CKEditor 5 build made by the CKEditor 5 online builder.",
   "version": "0.0.1",
   "license": "SEE LICENSE IN LICENSE.md",
-  "private": true,
   "main": "./build/ckeditor.js",
   "types": "./build/ckeditor.d.ts",
   "publishConfig": {
-    "@joker:registry": "https://npm.pkg.github.com"
+    "@joker:registry": "https://registry.npmjs.org/"
   },
   "dependencies": {
     "@ckeditor/ckeditor5-autoformat": "40.0.0",
